@@ -3,4 +3,5 @@ applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
   host: psl-pal-tracker-gagan-review
-  
+  services:
+  - tracker-database
